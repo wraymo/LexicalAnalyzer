@@ -1,0 +1,92 @@
+Token type: Preprocessor
+Value: #include<stdio.h>
+Location: test.cpp:1:5
+
+Token type: Keyword
+Value: int
+Location: test.cpp:3:1
+
+Token type: Identifier
+Value: main
+Location: test.cpp:3:5
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test.cpp:3:9
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test.cpp:3:10
+
+Token type: Punctuator (OpenBrace)
+Value: {
+Location: test.cpp:4:1
+
+Token type: Keyword
+Value: char
+Location: test.cpp:5:5
+
+Token type: Identifier
+Value: f
+Location: test.cpp:5:10
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test.cpp:5:12
+
+Token type: Constant (Error)
+Value: '\xg'
+Location: test.cpp:5:14
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test.cpp:5:19
+
+Token type: Identifier
+Value: printf
+Location: test.cpp:6:5
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test.cpp:6:11
+
+Token type: StringLiteral
+Value: "%d"
+Location: test.cpp:6:12
+
+Token type: Punctuator
+Value: ,
+Location: test.cpp:6:16
+
+Token type: Constant (FloatingConstant)
+Value: 2e5
+Location: test.cpp:6:18
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test.cpp:6:21
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test.cpp:6:22
+
+Token type: Punctuator (CloseBrace)
+Value: }
+Location: test.cpp:7:1
+
+Token type: Unknown
+Value: ÿ
+Location: test.cpp:8:1
+
+Result:
+File Name: test.cpp
+Total Characters: 74
+Total Lines: 8
+Keyword: 2
+Identifier: 3
+Punctuator: 10
+Constant: 1
+String Literal: 1
+Preprocessor: 1
+Unknown: 1
+Error: 1
