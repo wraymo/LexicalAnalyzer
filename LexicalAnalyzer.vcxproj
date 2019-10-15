@@ -123,7 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Analyzer.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Analyzer.h" />
+    <ClInclude Include="include\FileHandler.h" />
+    <ClInclude Include="include\Token.h" />
+    <ClInclude Include="include\Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
