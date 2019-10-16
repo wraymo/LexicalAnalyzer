@@ -1,4 +1,7 @@
-#pragma once
+#pragma once 
+using namespace std;
+#include "../include/Util.h"
+#include <iostream>
 
 class Token
 {
@@ -13,4 +16,6 @@ public:
 		type(_type), subtype(""), value(_value), location(_location) {}
 	Token(string _type, Location _location) :
 		type(_type), subtype(""), value(""), location(_location) {}
+	friend ostream& operator << (ostream& of, const Token& token);
 };
+

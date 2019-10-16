@@ -1,13 +1,13 @@
 #include <vector>
 #include "../include/Analyzer.h"
 
-
 int main(int argc, char** argv)
 {
 	if (argc <= 1)
 		throw "Please input at least one file you want to analyze";
 	
 	vector<Analyzer*> analyzeList;
+
 	mapInit();
 
 	for (int i = 0; i < argc - 1; i++)

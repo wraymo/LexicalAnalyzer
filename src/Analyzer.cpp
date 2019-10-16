@@ -1,4 +1,5 @@
 #include "../include/Analyzer.h"
+#include<algorithm>
 
 Token Analyzer::getToken()
 {
@@ -9,11 +10,10 @@ Token Analyzer::getToken()
 
 	char c = fileHandler.getChar();
 	while (c == ' ' || c == '\t' || c == '\n')
-	{
-		if (fileHandler.isEOF())
-			return Token("EOF", fileHandler.getLocation());
 		c = fileHandler.getChar();
-	}
+
+	if (fileHandler.isEOF())
+		return Token("EOF", fileHandler.getLocation());
 
 	currentLoc = fileHandler.getLocation();
 
@@ -343,7 +343,14 @@ Token Analyzer::getIdentifier()
 Token Analyzer::getNumericConstant()
 {
 	while (!fileHandler.isEOF() && isConstantChar(fileHandler.peek(1)))
+	{
+		if ((fileHandler.peek(1) == 'e' || fileHandler.peek(1) == 'E' ||
+			fileHandler.peek(1) == 'p' || fileHandler.peek(1) == 'P') &&
+			(fileHandler.peek(2) == '+' || fileHandler.peek(2) == '-'))
+			buffer += fileHandler.getChar();
 		buffer += fileHandler.getChar();
+	}
+		
 	size_t pos;
 	stof(buffer, &pos);
 	if (isSuffix(pos))
@@ -358,7 +365,7 @@ Token Analyzer::getNumericConstant()
 		return Token("Constant", "Error", buffer, currentLoc);
 }
 
-ostream& operator<< (ostream& of, const Token& token)
+ostream& operator << (ostream& of, const Token& token)
 {
 	of << "Token type: ";
 	if (token.subtype != "")

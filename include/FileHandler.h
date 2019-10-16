@@ -1,5 +1,5 @@
 #pragma once
-#include<iostream>
+#include "../include/Token.h"
 #include<fstream>
 
 using namespace std;
@@ -16,7 +16,7 @@ private:
 	string buffer;
 	string fileName;
 public:
-	FileHandler(string _fileName) :flag(true), fileName(_fileName)
+	FileHandler(string _fileName) :flag(true), fileName(_fileName), isPreprocessor(true), charCount(0)
 	{
 		file.open(_fileName, ios::in);
 		eof = file.eof();

@@ -1,11 +1,6 @@
 #pragma once
-#include "../include/Token.h"
 #include "../include/FileHandler.h"
-#include "../include/Util.h"
-#include <iostream>
-#include <fstream>
 #include <sstream>
-#include <string>
 
 using namespace std;
 class Analyzer
@@ -24,6 +19,7 @@ private:
 	int preprocessorCnt;
 	int unknownCnt;
 	int errorCnt;
+
 public:
 	Analyzer(const string _fileName, const int i)
 		:fileName(_fileName), fileHandler(_fileName), no(i), buffer(""),
@@ -45,7 +41,6 @@ public:
 	}
 
 	Token getToken();
-	friend ostream& operator << (ostream& of, const Token& token);
 	Token getStringLiteral();
 	Token getCharacterConstant();
 	Token getIdentifier();
@@ -124,3 +119,4 @@ public:
 	bool status;
 	int no;
 };
+
