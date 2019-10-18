@@ -20,32 +20,6 @@ private:
 	int unknownCnt;
 	int errorCnt;
 
-public:
-	Analyzer(const string _fileName, const int i)
-		:fileName(_fileName), fileHandler(_fileName), no(i), buffer(""),
-		keywordCnt(0), identifierCnt(0), constantCnt(0), stringLiteralCnt(0),
-		punctuatorCnt(0), preprocessorCnt(0), unknownCnt(0), errorCnt(0)
-	{
-		if (!fileHandler.status)
-			status = false;
-		else
-		{
-			status = true;
-			int pos = fileName.rfind('/');
-			stringstream ss;
-			ss << i;
-			string s = "result" + ss.str() + ".txt";
-			string resultName = (pos == string::npos) ? s : fileName.substr(0, pos + 1) + s;
-			result.open(resultName, ios::out);
-		}
-	}
-
-	Token getToken();
-	Token getStringLiteral();
-	Token getCharacterConstant();
-	Token getIdentifier();
-	Token getNumericConstant();
-
 	void skipLineComments()
 	{
 		while (!fileHandler.isEOF() && fileHandler.getChar() != '\n');
@@ -94,6 +68,36 @@ public:
 		return zero || one || two;
 	}
 
+	Token getStringLiteral();
+	Token getCharacterConstant();
+	Token getIdentifier();
+	Token getNumericConstant();
+
+public:
+	bool status;
+	int no;
+
+	Analyzer(const string _fileName, const int i)
+		:fileName(_fileName), fileHandler(_fileName), no(i), buffer(""),
+		keywordCnt(0), identifierCnt(0), constantCnt(0), stringLiteralCnt(0),
+		punctuatorCnt(0), preprocessorCnt(0), unknownCnt(0), errorCnt(0)
+	{
+		if (!fileHandler.status)
+			status = false;
+		else
+		{
+			status = true;
+			int pos = fileName.rfind('/');
+			stringstream ss;
+			ss << i;
+			string s = "result" + ss.str() + ".txt";
+			string resultName = (pos == string::npos) ? s : fileName.substr(0, pos + 1) + s;
+			result.open(resultName, ios::out);
+		}
+	}
+
+	Token getToken();
+	
 	bool printToken(Token token)
 	{
 		result << token;
@@ -115,8 +119,5 @@ public:
 		result << "Unknown: " << unknownCnt << endl;
 		result << "Error: " << errorCnt << endl;
 	}
-
-	bool status;
-	int no;
 };
 

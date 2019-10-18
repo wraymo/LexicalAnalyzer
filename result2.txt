@@ -1,0 +1,1052 @@
+Token type: Preprocessor
+Value: #include<stdio.h>
+Location: test2.c:1:1
+
+Token type: Keyword
+Value: typedef
+Location: test2.c:3:1
+
+Token type: Keyword
+Value: struct
+Location: test2.c:3:9
+
+Token type: Punctuator (OpenBrace)
+Value: {
+Location: test2.c:3:15
+
+Token type: Keyword
+Value: int
+Location: test2.c:4:5
+
+Token type: Identifier
+Value: data
+Location: test2.c:4:9
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:4:13
+
+Token type: Keyword
+Value: int
+Location: test2.c:5:5
+
+Token type: Identifier
+Value: pos
+Location: test2.c:5:9
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:5:12
+
+Token type: Punctuator (CloseBrace)
+Value: }
+Location: test2.c:6:1
+
+Token type: Identifier
+Value: Stack
+Location: test2.c:6:2
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:6:7
+
+Token type: Keyword
+Value: long
+Location: test2.c:8:1
+
+Token type: Identifier
+Value: largestRectangle
+Location: test2.c:8:6
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:8:22
+
+Token type: Keyword
+Value: int
+Location: test2.c:8:23
+
+Token type: Identifier
+Value: h_count
+Location: test2.c:8:27
+
+Token type: Punctuator
+Value: ,
+Location: test2.c:8:34
+
+Token type: Keyword
+Value: int
+Location: test2.c:8:36
+
+Token type: Punctuator (Star)
+Value: *
+Location: test2.c:8:39
+
+Token type: Identifier
+Value: h
+Location: test2.c:8:41
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:8:42
+
+Token type: Punctuator (OpenBrace)
+Value: {
+Location: test2.c:8:44
+
+Token type: Keyword
+Value: int
+Location: test2.c:9:5
+
+Token type: Identifier
+Value: i
+Location: test2.c:9:9
+
+Token type: Punctuator
+Value: ,
+Location: test2.c:9:10
+
+Token type: Identifier
+Value: j
+Location: test2.c:9:12
+
+Token type: Punctuator
+Value: ,
+Location: test2.c:9:13
+
+Token type: Identifier
+Value: k
+Location: test2.c:9:15
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:9:16
+
+Token type: Keyword
+Value: long
+Location: test2.c:10:5
+
+Token type: Identifier
+Value: max
+Location: test2.c:10:10
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:10:14
+
+Token type: Constant (IntegerConstant)
+Value: 0
+Location: test2.c:10:16
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:10:17
+
+Token type: Identifier
+Value: Stack
+Location: test2.c:11:5
+
+Token type: Identifier
+Value: inc
+Location: test2.c:11:11
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:11:14
+
+Token type: Constant (IntegerConstant)
+Value: 100001
+Location: test2.c:11:15
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:11:21
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:11:22
+
+Token type: Identifier
+Value: inc
+Location: test2.c:12:5
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:12:8
+
+Token type: Constant (IntegerConstant)
+Value: 0
+Location: test2.c:12:9
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:12:10
+
+Token type: Punctuator (Dot)
+Value: .
+Location: test2.c:12:11
+
+Token type: Identifier
+Value: data
+Location: test2.c:12:12
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:12:17
+
+Token type: Constant (IntegerConstant)
+Value: 0
+Location: test2.c:12:19
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:12:20
+
+Token type: Identifier
+Value: inc
+Location: test2.c:13:5
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:13:8
+
+Token type: Constant (IntegerConstant)
+Value: 0
+Location: test2.c:13:9
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:13:10
+
+Token type: Punctuator (Dot)
+Value: .
+Location: test2.c:13:11
+
+Token type: Identifier
+Value: pos
+Location: test2.c:13:12
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:13:16
+
+Token type: Punctuator (Minus)
+Value: -
+Location: test2.c:13:18
+
+Token type: Constant (IntegerConstant)
+Value: 1
+Location: test2.c:13:19
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:13:20
+
+Token type: Keyword
+Value: int
+Location: test2.c:14:5
+
+Token type: Identifier
+Value: size
+Location: test2.c:14:9
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:14:14
+
+Token type: Constant (IntegerConstant)
+Value: 1
+Location: test2.c:14:16
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:14:17
+
+Token type: Keyword
+Value: int
+Location: test2.c:15:5
+
+Token type: Identifier
+Value: flag
+Location: test2.c:15:9
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:15:14
+
+Token type: Constant (IntegerConstant)
+Value: 0
+Location: test2.c:15:16
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:15:17
+
+Token type: Keyword
+Value: for
+Location: test2.c:17:5
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:17:8
+
+Token type: Identifier
+Value: i
+Location: test2.c:17:9
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:17:11
+
+Token type: Constant (IntegerConstant)
+Value: 0
+Location: test2.c:17:13
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:17:14
+
+Token type: Identifier
+Value: i
+Location: test2.c:17:16
+
+Token type: Punctuator (Less)
+Value: <
+Location: test2.c:17:18
+
+Token type: Identifier
+Value: h_count
+Location: test2.c:17:20
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:17:27
+
+Token type: Identifier
+Value: i
+Location: test2.c:17:29
+
+Token type: Punctuator (Increment)
+Value: ++
+Location: test2.c:17:30
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:17:32
+
+Token type: Punctuator (OpenBrace)
+Value: {
+Location: test2.c:18:5
+
+Token type: Keyword
+Value: while
+Location: test2.c:19:9
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:19:14
+
+Token type: Identifier
+Value: h
+Location: test2.c:19:15
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:19:16
+
+Token type: Identifier
+Value: i
+Location: test2.c:19:17
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:19:18
+
+Token type: Punctuator (Less)
+Value: <
+Location: test2.c:19:20
+
+Token type: Identifier
+Value: inc
+Location: test2.c:19:22
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:19:25
+
+Token type: Identifier
+Value: size
+Location: test2.c:19:26
+
+Token type: Punctuator (Minus)
+Value: -
+Location: test2.c:19:30
+
+Token type: Constant (IntegerConstant)
+Value: 1
+Location: test2.c:19:31
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:19:32
+
+Token type: Punctuator (Dot)
+Value: .
+Location: test2.c:19:33
+
+Token type: Identifier
+Value: data
+Location: test2.c:19:34
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:19:38
+
+Token type: Punctuator (OpenBrace)
+Value: {
+Location: test2.c:20:9
+
+Token type: Keyword
+Value: long
+Location: test2.c:21:13
+
+Token type: Identifier
+Value: result
+Location: test2.c:21:18
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:21:25
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:21:27
+
+Token type: Keyword
+Value: long
+Location: test2.c:21:28
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:21:32
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:21:33
+
+Token type: Identifier
+Value: i
+Location: test2.c:21:34
+
+Token type: Punctuator (Minus)
+Value: -
+Location: test2.c:21:36
+
+Token type: Identifier
+Value: inc
+Location: test2.c:21:38
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:21:41
+
+Token type: Identifier
+Value: size
+Location: test2.c:21:42
+
+Token type: Punctuator (Minus)
+Value: -
+Location: test2.c:21:46
+
+Token type: Constant (IntegerConstant)
+Value: 2
+Location: test2.c:21:47
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:21:48
+
+Token type: Punctuator (Dot)
+Value: .
+Location: test2.c:21:49
+
+Token type: Identifier
+Value: pos
+Location: test2.c:21:50
+
+Token type: Punctuator (Minus)
+Value: -
+Location: test2.c:21:53
+
+Token type: Constant (IntegerConstant)
+Value: 1
+Location: test2.c:21:54
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:21:55
+
+Token type: Punctuator (Star)
+Value: *
+Location: test2.c:21:56
+
+Token type: Identifier
+Value: inc
+Location: test2.c:21:57
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:21:60
+
+Token type: Identifier
+Value: size
+Location: test2.c:21:61
+
+Token type: Punctuator (Minus)
+Value: -
+Location: test2.c:21:65
+
+Token type: Constant (IntegerConstant)
+Value: 1
+Location: test2.c:21:66
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:21:67
+
+Token type: Punctuator (Dot)
+Value: .
+Location: test2.c:21:68
+
+Token type: Identifier
+Value: data
+Location: test2.c:21:69
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:21:73
+
+Token type: Keyword
+Value: if
+Location: test2.c:22:13
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:22:15
+
+Token type: Identifier
+Value: result
+Location: test2.c:22:16
+
+Token type: Punctuator (More)
+Value: >
+Location: test2.c:22:23
+
+Token type: Identifier
+Value: max
+Location: test2.c:22:25
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:22:28
+
+Token type: Identifier
+Value: max
+Location: test2.c:23:17
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:23:21
+
+Token type: Identifier
+Value: result
+Location: test2.c:23:23
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:23:29
+
+Token type: Identifier
+Value: size
+Location: test2.c:24:13
+
+Token type: Punctuator (Decrement)
+Value: --
+Location: test2.c:24:17
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:24:19
+
+Token type: Punctuator (CloseBrace)
+Value: }
+Location: test2.c:25:9
+
+Token type: Identifier
+Value: inc
+Location: test2.c:26:9
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:26:12
+
+Token type: Identifier
+Value: size
+Location: test2.c:26:13
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:26:17
+
+Token type: Punctuator (Dot)
+Value: .
+Location: test2.c:26:18
+
+Token type: Identifier
+Value: data
+Location: test2.c:26:19
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:26:24
+
+Token type: Identifier
+Value: h
+Location: test2.c:26:26
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:26:27
+
+Token type: Identifier
+Value: i
+Location: test2.c:26:28
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:26:29
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:26:30
+
+Token type: Identifier
+Value: inc
+Location: test2.c:27:9
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:27:12
+
+Token type: Identifier
+Value: size
+Location: test2.c:27:13
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:27:17
+
+Token type: Punctuator (Dot)
+Value: .
+Location: test2.c:27:18
+
+Token type: Identifier
+Value: pos
+Location: test2.c:27:19
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:27:23
+
+Token type: Identifier
+Value: i
+Location: test2.c:27:25
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:27:26
+
+Token type: Identifier
+Value: size
+Location: test2.c:28:9
+
+Token type: Punctuator (Increment)
+Value: ++
+Location: test2.c:28:13
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:28:15
+
+Token type: Punctuator (CloseBrace)
+Value: }
+Location: test2.c:29:5
+
+Token type: Keyword
+Value: while
+Location: test2.c:30:5
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:30:10
+
+Token type: Identifier
+Value: size
+Location: test2.c:30:11
+
+Token type: Punctuator (More)
+Value: >
+Location: test2.c:30:16
+
+Token type: Constant (IntegerConstant)
+Value: 1
+Location: test2.c:30:18
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:30:19
+
+Token type: Punctuator (OpenBrace)
+Value: {
+Location: test2.c:31:5
+
+Token type: Identifier
+Value: size
+Location: test2.c:32:9
+
+Token type: Punctuator (Decrement)
+Value: --
+Location: test2.c:32:13
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:32:15
+
+Token type: Keyword
+Value: long
+Location: test2.c:33:9
+
+Token type: Identifier
+Value: result
+Location: test2.c:33:14
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:33:21
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:33:23
+
+Token type: Keyword
+Value: long
+Location: test2.c:33:24
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:33:28
+
+Token type: Identifier
+Value: inc
+Location: test2.c:33:29
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:33:32
+
+Token type: Identifier
+Value: size
+Location: test2.c:33:33
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:33:37
+
+Token type: Punctuator (Dot)
+Value: .
+Location: test2.c:33:38
+
+Token type: Identifier
+Value: data
+Location: test2.c:33:39
+
+Token type: Punctuator (Star)
+Value: *
+Location: test2.c:33:44
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:33:46
+
+Token type: Identifier
+Value: h_count
+Location: test2.c:33:47
+
+Token type: Punctuator (Minus)
+Value: -
+Location: test2.c:33:55
+
+Token type: Identifier
+Value: inc
+Location: test2.c:33:57
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:33:60
+
+Token type: Identifier
+Value: size
+Location: test2.c:33:61
+
+Token type: Punctuator (Minus)
+Value: -
+Location: test2.c:33:65
+
+Token type: Constant (IntegerConstant)
+Value: 1
+Location: test2.c:33:66
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:33:67
+
+Token type: Punctuator (Dot)
+Value: .
+Location: test2.c:33:68
+
+Token type: Identifier
+Value: pos
+Location: test2.c:33:69
+
+Token type: Punctuator (Minus)
+Value: -
+Location: test2.c:33:72
+
+Token type: Constant (IntegerConstant)
+Value: 1
+Location: test2.c:33:73
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:33:74
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:33:75
+
+Token type: Keyword
+Value: if
+Location: test2.c:34:9
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:34:11
+
+Token type: Identifier
+Value: result
+Location: test2.c:34:12
+
+Token type: Punctuator (More)
+Value: >
+Location: test2.c:34:19
+
+Token type: Identifier
+Value: max
+Location: test2.c:34:21
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:34:24
+
+Token type: Identifier
+Value: max
+Location: test2.c:35:13
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:35:17
+
+Token type: Identifier
+Value: result
+Location: test2.c:35:19
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:35:25
+
+Token type: Punctuator (CloseBrace)
+Value: }
+Location: test2.c:36:5
+
+Token type: Keyword
+Value: return
+Location: test2.c:37:5
+
+Token type: Identifier
+Value: max
+Location: test2.c:37:12
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:37:15
+
+Token type: Punctuator (CloseBrace)
+Value: }
+Location: test2.c:39:1
+
+Token type: Keyword
+Value: int
+Location: test2.c:41:1
+
+Token type: Identifier
+Value: main
+Location: test2.c:41:5
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:41:9
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:41:10
+
+Token type: Punctuator (OpenBrace)
+Value: {
+Location: test2.c:42:1
+
+Token type: Keyword
+Value: int
+Location: test2.c:43:5
+
+Token type: Identifier
+Value: h
+Location: test2.c:43:9
+
+Token type: Punctuator (OpenBracket)
+Value: [
+Location: test2.c:43:10
+
+Token type: Punctuator (CloseBracket)
+Value: ]
+Location: test2.c:43:11
+
+Token type: Punctuator (Equal)
+Value: =
+Location: test2.c:43:13
+
+Token type: Punctuator (OpenBrace)
+Value: {
+Location: test2.c:43:15
+
+Token type: Constant (IntegerConstant)
+Value: 11
+Location: test2.c:43:16
+
+Token type: Punctuator
+Value: ,
+Location: test2.c:43:18
+
+Token type: Constant (IntegerConstant)
+Value: 11
+Location: test2.c:43:19
+
+Token type: Punctuator
+Value: ,
+Location: test2.c:43:21
+
+Token type: Constant (IntegerConstant)
+Value: 10
+Location: test2.c:43:22
+
+Token type: Punctuator
+Value: ,
+Location: test2.c:43:24
+
+Token type: Constant (IntegerConstant)
+Value: 10
+Location: test2.c:43:25
+
+Token type: Punctuator
+Value: ,
+Location: test2.c:43:27
+
+Token type: Constant (IntegerConstant)
+Value: 10
+Location: test2.c:43:28
+
+Token type: Punctuator (CloseBrace)
+Value: }
+Location: test2.c:43:30
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:43:31
+
+Token type: Identifier
+Value: printf
+Location: test2.c:44:5
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:44:11
+
+Token type: StringLiteral
+Value: "%ld"
+Location: test2.c:44:12
+
+Token type: Punctuator
+Value: ,
+Location: test2.c:44:17
+
+Token type: Identifier
+Value: largestRectangle
+Location: test2.c:44:19
+
+Token type: Punctuator (OpenParen)
+Value: (
+Location: test2.c:44:35
+
+Token type: Constant (IntegerConstant)
+Value: 5
+Location: test2.c:44:36
+
+Token type: Punctuator
+Value: ,
+Location: test2.c:44:37
+
+Token type: Identifier
+Value: h
+Location: test2.c:44:39
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:44:40
+
+Token type: Punctuator (CloseParen)
+Value: )
+Location: test2.c:44:41
+
+Token type: Punctuator (Semicolon)
+Value: ;
+Location: test2.c:44:42
+
+Token type: Punctuator (CloseBrace)
+Value: }
+Location: test2.c:45:1
+
+Token type: EOF
+Value: 
+Location: test2.c:46:1
+
+Result:
+File Name: test2.c
+Total Characters: 867
+Total Lines: 46
+Keyword: 23
+Identifier: 70
+Punctuator: 142
+Constant: 22
+String Literal: 1
+Preprocessor: 1
+Unknown: 0
+Error: 0
